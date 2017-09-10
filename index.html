@@ -1,19 +1,30 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-   <head>
-     <title></title>
-     <link rel="stylesheet" href="styles.css">
-   </head>
-  <body>
-    <h1>Image Gallery</h1>
-    <div class="full-img">
-		  <img class="gallery-img" src="imgs/pic1.jpg">
-		  <div class="overlay"></div>
-		  <button class="dark">Darken</button>
-		</div>
-		<div class="img-bar">
-		</div>
 
-    <script src="app.js"></script>
-  </body>
+<head>
+	<meta charset="utf-8">
+	<title>Image Gallery</title>
+	<link rel="stylesheet"  type="text/css" href="Stylesheet.css">
+</head>
+
+
+<body>
+	<h1>Image Gallery</h1>
+
+    <div id="full-img">
+        <img class="displayed-img" src="images/pic1.jpg">
+        <div class="overlay"></div>
+		<button class="dark">Darken</button>
+    </div>
+        
+        <!-- Full size image here... -->
+
+	<div id="thumb-bar">
+		<!-- Thumbnail images here... -->
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>
